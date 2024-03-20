@@ -19,6 +19,7 @@
     --font-family: "Roboto", sans-serif;
     --second-family: "Raleway", sans-serif;
     --currentcolor: #ffffff;
+    --feather-menu: #2E2F42
 }
 
 * { 
@@ -57,9 +58,9 @@
 
 .header-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    max-width: 1200px;
+    /* width: 1200px; */
     margin: 0 auto;
     height: 72px;
     color: var(--navy-blue);
@@ -863,5 +864,35 @@ p {
     background-color: var(--link-color-hover);
     color: #ffffff;
     transition-timing-function: 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+ /*  Mobile-first reponsable */
+
+
+ @media (max-width: 428px) {
+    .body-container {
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+    }
+    /* .logo {
+        margin-left: 16px;
+    } */
+    .nav-bar {
+        display: none;
+    }
+    .contact-container {
+        display: none;
+    }
+    .header-container {
+        padding-right: 1280px;
+
+    }
+    .feather feather-menu {
+        display: flex;
+        flex-wrap: wrap-reverse;
+        /* position: absolute; */
+        color: var(--feather-menu);
+    }
 }
 
