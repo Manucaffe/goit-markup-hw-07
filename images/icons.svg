@@ -329,9 +329,38 @@
                 d="M38.4 0l-38.4 18 12.272 3.787 18.928-14.787-14.397 16.186 0.011 0.005-0.014-0.005v8.814l6.882-6.691 8.72 2.691 5.998-28z">
             </path>
         </symbol>
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor"
-            stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="feather feather-menu">
-            <path d="M3 12h18M3 6h18M3 18h18" />
+        <!-- <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor"
+            stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 38 32" class=" burger-menu">
+            <path d="M3 12h18M3 6h18M3 18h18">
+            </path>
+        </svg> -->
+        <!-- <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#2E2F42"
+            stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg> -->
+        <!-- <svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1"
+            xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <defs>
+                <symbol id="icon-meniu" viewBox="0 0 32 32">
+                    <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.6667"
+                        d="M4 16h24"></path>
+                    <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.6667"
+                        d="M4 8h24"></path>
+                    <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.6667"
+                        d="M4 24h24"></path>
+                </symbol>
+            </defs>
+        </svg> -->
+        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+            <title>menu</title>
+            <path fill="none" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.6667"
+                stroke="#000" d="M4 16h24"></path>
+            <path fill="none" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.6667"
+                stroke="#000" d="M4 8h24"></path>
+            <path fill="none" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.6667"
+                stroke="#000" d="M4 24h24"></path>
         </svg>
     </defs>
 </svg>
